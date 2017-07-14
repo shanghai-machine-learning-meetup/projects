@@ -1,0 +1,277 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9222,        267]
+NotebookOptionsPosition[      7429,        216]
+NotebookOutlinePosition[      7784,        232]
+CellTagsIndexPosition[      7741,        229]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Drop", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\"\<long thing\>\"", ",", "\"\<,\>\""}], "}"}], ",", 
+   RowBox[{"Position", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\"\<long thing\>\"", ",", "\"\<,\>\""}], "}"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"StringLength", "[", "#", "]"}], "<", "2"}], "&"}], ",", "2"}],
+     "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.708291200351412*^9, 3.7082912439591837`*^9}, {
+  3.708291550684882*^9, 3.708291576213951*^9}, {3.7082916312738743`*^9, 
+  3.70829165550452*^9}, {3.708291689059554*^9, 
+  3.708291689265452*^9}},ExpressionUUID->"ee2d684c-79e5-41b4-b81e-\
+6a540fb49929"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"long thing\"\>", ",", "\<\",\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.708291244303225*^9, {3.708291552374959*^9, 3.708291576613081*^9}, {
+   3.708291649088709*^9, 3.708291656323791*^9}, 
+   3.708291689982152*^9},ExpressionUUID->"3b93bcf2-8c22-40f3-ac2e-\
+94a26ff69b7a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"StringLength", "[", 
+   RowBox[{"{", 
+    RowBox[{"\"\<long thing\>\"", ",", "\"\<,\>\""}], "}"}], "]"}], "<", 
+  "2"}]], "Input",
+ CellChangeTimes->{
+  3.7082916704382343`*^9},ExpressionUUID->"1032295a-c073-474f-a421-\
+ccdb0d5f69d4"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"10", ",", "1"}], "}"}], "<", "2"}]], "Output",
+ CellChangeTimes->{
+  3.7082916711353893`*^9},ExpressionUUID->"d2f6314b-ccd3-4d63-8544-\
+15a86f54b21a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Position", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\"\<long thing\>\"", ",", "\"\<,\>\""}], "}"}], ",", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"StringLength", "[", "#", "]"}], "<", "2"}], "&"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.708291703304811*^9, 
+  3.708291703489155*^9}},ExpressionUUID->"a1918954-cb4f-456e-9812-\
+0823a30b3683"],
+
+Cell[BoxData[
+ RowBox[{"{", "}"}]], "Output",
+ CellChangeTimes->{{3.708291701199099*^9, 
+  3.708291703907856*^9}},ExpressionUUID->"bebb484c-47e3-43fe-83e4-\
+343a02700b0d"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"levelNames", " ", "=", 
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<a1\>\"", ",", "\"\<a2\>\"", ",", "\"\<b1\>\"", ",", "\"\<b2\>\""}], 
+    "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.708066823125216*^9, 3.7080668347663016`*^9}, {
+  3.708067093533904*^9, 3.7080671033663254`*^9}, {3.7080673922240524`*^9, 
+  3.708067396501897*^9}},ExpressionUUID->"9d96e469-ac30-4e3c-a8c1-\
+0bb4eeca7304"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"rootPath", " ", "=", " ", 
+   RowBox[{"NotebookDirectory", "[", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.708067105514363*^9, 3.708067131571233*^9}, {
+  3.70806721954996*^9, 3.708067243614083*^9}, {3.708111593732821*^9, 
+  3.708111602597431*^9}},ExpressionUUID->"d3cb2b82-c03b-4c63-9526-\
+78769206fc31"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "NotebookDirectory","nosv",
+   "\"The notebook \
+\\!\\(\\*TemplateBox[List[FrontEndObject[LinkObject[\\\"mmcwf_shm\\\", 3, \
+1]], 26, \\\"FrontEndObject[LinkObject[\\\\\\\"mmcwf_shm\\\\\\\", 3, 1]]\\\", \
+\\\"26\\\", \\\"\\\\\\\"Untitled-2\\\\\\\"\\\"], \
+\\\"NotebookObjectUnsaved\\\"]\\) is not saved.\"",2,359,84,
+   21434419710170402996,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.708293041782257*^9},ExpressionUUID->"3390b701-bef7-4305-b166-\
+564c63bf1362"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"texts", " ", "=", " ", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"Import", "[", " ", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{
+        "rootPath", " ", ",", " ", "\"\<data\>\"", ",", "\"\<sentences\>\"", 
+         " ", ",", 
+         RowBox[{"StringJoin", "[", " ", 
+          RowBox[{"level", ",", "\"\< sentences.txt\>\""}], "]"}]}], "}"}], 
+       "]"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"level", ",", "levelNames"}], "}"}]}], "]"}]}], ";"}]], "Input",\
+
+ CellChangeTimes->{{3.708067453276176*^9, 3.708067454197705*^9}, {
+   3.708071570634652*^9, 3.708071594875949*^9}, {3.708071659064023*^9, 
+   3.708071728816186*^9}, {3.7080723094006195`*^9, 3.7080723142402024`*^9}, {
+   3.708111060493948*^9, 3.70811106631606*^9}, {3.7081114178207617`*^9, 
+   3.708111502428893*^9}, {3.708111608933325*^9, 3.7081116110123034`*^9}, {
+   3.708111647159012*^9, 3.7081116499099674`*^9}, {3.708111708269863*^9, 
+   3.7081117156228104`*^9}, {3.708130871807325*^9, 3.708130881887453*^9}, {
+   3.708131168625139*^9, 3.708131171563682*^9}, 
+   3.708132646821857*^9},ExpressionUUID->"984a7315-4673-41de-86f9-\
+b4861deff473"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Import","chtype",
+   "\"First argument \\!\\(\\*RowBox[{\\\"FileNameJoin\\\", \\\"[\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"$Failed\\\", \\\",\\\", \\\"\\\\\\\"data\\\\\\\
+\"\\\", \\\",\\\", \\\"\\\\\\\"sentences\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"a1 sentences.txt\\\\\\\"\\\"}], \\\"}\\\"}], \\\"]\\\"}]\\) is \
+not a valid file, directory, or URL specification.\"",2,360,85,
+   21434419710170402996,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.708293041850333*^9},ExpressionUUID->"f06a4358-0928-4e6e-9202-\
+db53e64d5f84"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Import","chtype",
+   "\"First argument \\!\\(\\*RowBox[{\\\"FileNameJoin\\\", \\\"[\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"$Failed\\\", \\\",\\\", \\\"\\\\\\\"data\\\\\\\
+\"\\\", \\\",\\\", \\\"\\\\\\\"sentences\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"a2 sentences.txt\\\\\\\"\\\"}], \\\"}\\\"}], \\\"]\\\"}]\\) is \
+not a valid file, directory, or URL specification.\"",2,360,86,
+   21434419710170402996,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.708293041854693*^9},ExpressionUUID->"fd0de8f7-4f1d-4b47-b1c9-\
+bd71ef3cbec2"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Import","chtype",
+   "\"First argument \\!\\(\\*RowBox[{\\\"FileNameJoin\\\", \\\"[\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"$Failed\\\", \\\",\\\", \\\"\\\\\\\"data\\\\\\\
+\"\\\", \\\",\\\", \\\"\\\\\\\"sentences\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"b1 sentences.txt\\\\\\\"\\\"}], \\\"}\\\"}], \\\"]\\\"}]\\) is \
+not a valid file, directory, or URL specification.\"",2,360,87,
+   21434419710170402996,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.708293041877329*^9},ExpressionUUID->"351588c8-c852-44ce-84c7-\
+2a90b94ccf07"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General","stop",
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"Import\\\", \\\"::\\\", \
+\\\"chtype\\\"}], \\\"MessageName\\\"]\\) will be suppressed during this \
+calculation.\"",2,360,88,21434419710170402996,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{
+  3.708293041899784*^9},ExpressionUUID->"f8cd455d-d6a5-4697-a769-\
+96ee110818a4"]
+}, Open  ]]
+},
+WindowSize->{808, 652},
+WindowMargins->{{12, Automatic}, {Automatic, 24}},
+FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 18, \
+2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 673, 17, 32, "Input", "ExpressionUUID" -> \
+"ee2d684c-79e5-41b4-b81e-6a540fb49929"],
+Cell[1256, 41, 322, 7, 32, "Output", "ExpressionUUID" -> \
+"3b93bcf2-8c22-40f3-ac2e-94a26ff69b7a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1615, 53, 269, 8, 32, "Input", "ExpressionUUID" -> \
+"1032295a-c073-474f-a421-ccdb0d5f69d4"],
+Cell[1887, 63, 202, 6, 32, "Output", "ExpressionUUID" -> \
+"d2f6314b-ccd3-4d63-8544-15a86f54b21a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2126, 74, 373, 11, 32, "Input", "ExpressionUUID" -> \
+"a1918954-cb4f-456e-9812-0823a30b3683"],
+Cell[2502, 87, 171, 4, 32, "Output", "ExpressionUUID" -> \
+"bebb484c-47e3-43fe-83e4-343a02700b0d"]
+}, Open  ]],
+Cell[2688, 94, 423, 10, 32, "Input", "ExpressionUUID" -> \
+"9d96e469-ac30-4e3c-a8c1-0bb4eeca7304"],
+Cell[CellGroupData[{
+Cell[3136, 108, 344, 7, 32, "Input", "ExpressionUUID" -> \
+"d3cb2b82-c03b-4c63-9526-78769206fc31"],
+Cell[3483, 117, 524, 12, 34, "Message", "ExpressionUUID" -> \
+"3390b701-bef7-4305-b166-564c63bf1362"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4044, 134, 1197, 26, 96, "Input", "ExpressionUUID" -> \
+"984a7315-4673-41de-86f9-b4861deff473"],
+Cell[5244, 162, 586, 12, 24, "Message", "ExpressionUUID" -> \
+"f06a4358-0928-4e6e-9202-db53e64d5f84"],
+Cell[5833, 176, 586, 12, 24, "Message", "ExpressionUUID" -> \
+"fd0de8f7-4f1d-4b47-b1c9-bd71ef3cbec2"],
+Cell[6422, 190, 586, 12, 24, "Message", "ExpressionUUID" -> \
+"351588c8-c852-44ce-84c7-2a90b94ccf07"],
+Cell[7011, 204, 402, 9, 24, "Message", "ExpressionUUID" -> \
+"f8cd455d-d6a5-4697-a769-96ee110818a4"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
